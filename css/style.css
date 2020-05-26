@@ -1,0 +1,70 @@
+#paineis{
+    display: flex;
+    flex-direction: row;
+}
+
+.painel{
+    width: 50%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 13px;
+    height: fit-content;
+    font-family: sans-serif;
+}
+
+b{
+    font-weight: bold;
+    color: #4e4d4d;
+}
+
+.dados{
+    margin-top:20px;
+}
+
+.foto{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.titulo{
+    color: #4e4d4d;
+    font-size: 40px;
+}
+
+.divUsuario{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+#conteudo{
+    max-width: 1000px;
+    margin: auto;
+}
+
+#btnBusca{
+    padding: 7px 14px;
+    border-radius: 5px;
+    border: 1px solid #245bce;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #e0e0e0;
+    background-color: #4380ff;
+}
+
+#btnBusca:disabled{
+    border: 1px solid #929191;
+    background-color: #ababab;
+}
+
+#campoBusca{
+    margin: 10px;
+    width: calc(100% - 140px);
+    padding: 7px 8px;
+    border-radius: 7px;
+    border: 1px solid #b7b7b7;
+    box-shadow: 1px 1px 1px #ccc;
+}
